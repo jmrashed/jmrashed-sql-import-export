@@ -1,0 +1,20 @@
+{
+  "name": "jmrashed-sql-import-export",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "sql-manager": "cli.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
